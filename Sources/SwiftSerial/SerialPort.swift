@@ -10,7 +10,7 @@ public actor SerialPort {
     /** The path of the serial port */
     public let path: String
 
-    var fileDescriptor: Int32?
+    private(set) var fileDescriptor: Int32?
 
     /**
      Create a serial port interface.
