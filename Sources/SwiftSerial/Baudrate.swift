@@ -3,7 +3,7 @@ import Foundation
 /**
  The possible baud rate settings for a serial connection
  */
-public enum BaudRate {
+public enum BaudRate: Sendable {
 
     /** Baud 0 */
     case baud0
